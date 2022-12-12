@@ -1,0 +1,18 @@
+.btn {
+    background-color: orange;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+    width: ;
+    height: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  .result {
+    width: 100%;
+    margin-top: 20px;
+  }
+  

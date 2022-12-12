@@ -1,0 +1,36 @@
+input {
+    width: 400px;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: 4px solid #a2c9e0;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: rgb(192 192 192);
+  }
+  
+  .btnSend, .btnGeo {
+    cursor: pointer;
+    margin: 20px 10px;
+    padding: 10px 5px;
+    border: none;
+    font-size: 14px;
+    color: black;
+    background-color: #a2c9e0;
+    transition: 0.3s;
+  }
+  
+  .btnSend:hover, .btnGeo:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+  }
+  
+  .field {
+    margin-top: 0px;
+    margin-left: 12px;
+    width: 638px;	
+    height: 600px;
+    outline: 4px solid #a2c9e0;
+  }  
